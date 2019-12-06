@@ -54,7 +54,7 @@ body {
 .first__name__text {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.5vw;
     line-height: 20px;
     color: #FFF6E4;
     transform: rotate(-5.88deg);
@@ -89,17 +89,17 @@ body {
     text-align: center;
 }
 .date__content__item:first-of-type{
-    font-size: 350px;
+    font-size: 25vw;
 }
 .date__content__item:nth-of-type(2) {
-    font-size: 150px;
+    font-size: 10vw;
     margin-top: -40px;
 }
 .date__content__item:last-of-type {
     font-family: 'Open Sans', sans-serif;
     color: #FFF9ED;
     font-weight: 600;
-    font-size: 42px;
+    font-size: 3vw;
     line-height: 88.7%;
 }
 .squirrel {
@@ -107,26 +107,30 @@ body {
     margin-top: -15%;
     left: -58px;
 }
+.squirrel-img {
+    width: 25vw;
+}
 .arms {
     margin-top: -44%;
 }
-.arms-img,
-.arms-bc {
- width: 100%;
-}
 .arms-img {
     position: absolute;
+    width: 100%;
 }
 .arms-bc {
     position: relative;
     z-index: -1;
+    width: 110%;
+    margin: 0 auto;
+    margin-left: 3%;
 }
 .second {
-    margin-top: -25%;
+    margin-top: -39%;
 }
 .swallow-white {
   position: absolute;
   right: 0;
+  widows: 21vw;
 } 
 .second__list {
     display: flex;
@@ -155,13 +159,13 @@ body {
     position: absolute;
 }
 .entrance__title:first-of-type {
-    font-size: 120px;
+    font-size: 8vw;
     transform: rotate(11.24deg);
     margin-top: 39%;
     left: 27%;
 }
 .entrance__title:last-of-type {
-    font-size: 80px;
+    font-size: 5vw;
     margin-top: -36%;
     margin-left: -23px;
     transform: rotate(16.36deg);
@@ -180,7 +184,10 @@ body {
     z-index: 1;
     margin-top: 19%;
     margin-left: 25%;
-
+    width: 22vw;
+}
+.wrapper-inf {
+    margin-top: -26%;
 }
 h1,
 .inf__content__text {
@@ -188,11 +195,11 @@ h1,
 }
 h1 {
     font-weight: bold;
-    font-size: 64px;
+    font-size: 4.5vw;
     line-height: 74px;
 }
 .inf__content__text {
-    font-size: 24px;
+    font-size: 1.8vw;
     line-height: 139%;
     margin-top: 22px;
 }
