@@ -1,0 +1,105 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Original+Surfer&display=swap&subset=cyrillic');
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #120585;
+}
+.elements {
+    margin-top: -10%;
+}
+.swallow-red {
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+}
+.first__desc {
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    transform: rotate(90deg);
+    margin-left: -49px;
+    top: 185px;
+}
+.first__title {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: px;
+}
+.wrapper-first {
+    width: 94%;
+    height: 100%;
+}
+.first__block {
+    display: flex;
+    margin-top: -29%;
+}
+.first__name {
+    align-items: center;
+    margin-left: 42%;
+    margin-top: 9%;
+}
+.first__name__text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFF6E4;
+    transform: rotate(-5.88deg);
+    margin-left: 23%;
+    text-align: center;
+    position: absolute;
+}
+.first__name__text:first-of-type {
+    margin-top: 10%;
+}
+.first__name__text:last-of-type {
+   margin-top: -12%;
+}
+.wrapper-name {
+    width: 100%;
+}
+.wrapper__date {
+    width: 50%;
+}
+.wrapper-date {
+    position: absolute;
+    left: 0;
+    width: 62%;
+}
+.first__date__content {
+    font-family: 'Original Surfer', cursive;
+    color: white;
+    position: absolute;
+    transform: rotate(-13.92deg);
+    left: 57px;
+    margin-top: 17%;
+    text-align: center;
+}
+.date__content__item:first-of-type{
+    font-size: 350px;
+}
+.date__content__item:nth-of-type(2) {
+    font-size: 150px;
+    margin-top: -40px;
+}
+.date__content__item:last-of-type {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF9ED;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 88.7%;
+}
+.squirrel {
+    position: absolute;
+    margin-top: -15%;
+    left: -58px;
+}
