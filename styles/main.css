@@ -21,16 +21,17 @@ body {
     overflow: hidden;
     position: absolute;
     right: 0;
+    width: 24%;
 }
 .first__desc {
-    font-size: 18px;
+    font-size: 1.8vw;
     line-height: 25px;
     color: white;
     font-family: 'Open Sans', sans-serif;
     position: absolute;
     transform: rotate(90deg);
     margin-left: -49px;
-    top: 185px;
+    top: 29%;
 }
 .first__title {
     display: flex;
@@ -110,6 +111,9 @@ body {
 .squirrel-img {
     width: 25vw;
 }
+.swallow-blue {
+    width: 20vw;;
+}
 .arms {
     margin-top: -44%;
 }
@@ -130,7 +134,7 @@ body {
 .swallow-white {
   position: absolute;
   right: 0;
-  widows: 21vw;
+  width: 21vw;
 } 
 .second__list {
     display: flex;
@@ -201,7 +205,6 @@ h1 {
 .inf__content__text {
     font-size: 1.8vw;
     line-height: 139%;
-    margin-top: 22px;
 }
 .btn__link {
     font-weight: bold;
@@ -210,17 +213,32 @@ h1 {
     color: #120585;
     text-decoration: none;
 }
-.btn__link span {
-    margin-left: -30%;
+.btn__splashes {
+    display: flex;
+    margin-left: 23%;
+    margin-top: 12px;
 }
+.splashes-img {
+    width: 14%;
+}
+.btn__link p {
+    font-size: 3.5vw;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 8%;
+}
+.link-bc {
+    width: 80%;
+}
+
 footer {
-    background-image: url(../img/footer.png);
-    padding-top: 17%;
-    padding-bottom: 116px;
+  margin-top: 15%;
 }
 .footer__list,
 .footer__text {
-    margin-left: 63px;
+  position: relative;
+  z-index: 1;
+  margin-left: 6.5%;
 }
 .footer__list {
     display: flex;
@@ -234,4 +252,8 @@ footer {
     line-height: 20px;
     color: #FFF6E5;
     width: 354px;
+}
+.footer__bc {
+  margin-top:-34%; 
+  width: 100%; 
 }
