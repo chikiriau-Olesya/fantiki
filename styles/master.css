@@ -81,6 +81,9 @@ body {
     position: relative;
     z-index: 2;
 }
+.arrow-tablet {
+    display: none;
+}
 .wrapper-name {
     width: 100%;
  }
@@ -236,3 +239,135 @@ footer {
     margin-top:-34%; 
     width: 100%; 
   }
+
+@media (max-width: 768px) {
+    .first__desc {
+      transform: none;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 17%;
+      margin-top: 3%;
+      font-size: 2vw;
+      position: relative;
+    }
+    .swallow-red {
+      width: 32%;
+      top: -9%;
+      right: -14%;
+    }
+    .first__title {
+        margin-top: -14%;
+    }
+    .squirrel-img {
+     width: 32%;
+    }
+    .wrapper-first {
+     width: 107%;
+     margin-right: -6%;
+    }
+    .first__block {
+        margin-top: -27%;
+        flex-direction: column;
+    }
+    .first__date__block {
+        display: flex;
+    }
+    .wrapper-date {
+        width: 82%;
+    }
+    .arrow-tablet {
+        display: block;
+        margin-left: -20%;
+    }
+    .first__name {
+        margin-top: -36%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .wrapper-name {
+        width: 79%;
+    }
+    .first__date__content {
+        margin-top: -71%;
+    }
+    .date__content__item:first-of-type {
+        font-size: 29vw;
+    }
+    .date__content__item:nth-of-type(2) {
+        font-size: 14vw;
+        margin-top: -7%;
+    }
+    .first__name__text:first-of-type {
+        margin-top: 61%;
+        margin-left: -8%;
+        font-size: 2.5vw;
+    }
+    .first__name__text:last-of-type {
+        display: none;
+    }
+    .swallow-blue {
+        width: 30vw;
+    }
+    .arms {
+        margin-top: -19%;
+    }
+    .arms-bc {
+        width: 158%;
+        margin-left: -19%;
+        margin-top: -30%;
+    }
+    .swallow-white {
+        width: 31vw;
+        margin-right: -7%;
+    }
+    .cat {
+        display: none;
+    }
+    .second__list{
+        flex-direction: column;
+    }
+    .wrapper-entrance {
+        width: 77%;
+    }
+    .entrance__title:first-of-type {
+        margin-top: 32%;
+        left: 23%;
+    }
+    .entrance__title:last-of-type {
+        font-size: 5.5vw;
+        margin-top: -27%;
+        margin-left: 3%;
+    }
+    .second__inf {
+        margin-top: -50%;
+        margin-left: 16%;
+        margin-right: -36%;
+    }
+    .second__inf__content {
+        position: inherit;
+    }
+    .wrapper-inf {
+        width: 85%;
+        margin-top: 0;
+    }
+    footer {
+        margin-top: -39%;
+    }
+    .footer__list {
+        flex-direction: column;
+    }
+    .footer__list__item {
+        margin-bottom: 17px;
+    }
+    .item__link img {
+        width: 7vw;
+    }
+    .footer__text {
+        width: 273px;
+    }
+    .footer__bc {
+        width: 126%;
+        margin-left: -23%;
+    }
+
+}
