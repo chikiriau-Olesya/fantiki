@@ -422,7 +422,7 @@ footer {
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 414px) {
   .first {
       margin-top: 12%;
   }
