@@ -59,6 +59,7 @@ body {
 }
 .wrapper-date {
     width: 127%;
+    height: 100%;
 }
 .first__date__block {
     position: relative;
@@ -98,6 +99,7 @@ body {
 }
 .wrapper-name {
     width: 110%;
+    height: 100%;
  }
 .first__name {
     margin-top: 8%;
