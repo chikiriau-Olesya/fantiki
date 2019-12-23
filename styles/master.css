@@ -24,65 +24,17 @@ body {
     right: -15%;
     top: -11%;
     width: 24%;
-    animation: flight  6s linear infinite;
+    animation: flight  12s linear infinite;
 }
 @keyframes flight {
     0% {
-        transform: rotate(0);
-    }
-   5% {
-        top: -8%;
-        right: -10%;
-        transform: rotate(5deg);
-   }
-    10% {
-        top: -6%;
-        right: -4%;
-        transform: rotate(10deg);
-    }
-    15% {
-        transform: rotate(12deg);
-    }
-    25% {
-        top: -6%;
-        right: 2% ;
-        transform: rotate(20deg);
-    }
-    28% {
-        transform: rotate(25deg);
-       }
-    35% {
-        top: -4%;
-        right: 6% ;
-        transform: rotate(30deg);
-    }
-    45% {
-        transform: rotate(38deg);
+        transform: translate(0px, 0px);
     }
     50% {
-        top: -8%;
-        right: 10%;
-        transform: rotate(45deg);
-    }
-    60% {
-        top: -12%;
-        right: 16%;
-        transform: rotate(52deg);
-    }
-    75% {
-        top: -30%;
-        right: 12%;
-        transform: rotate(75deg);
-    }
-    80% {
-        top: -35%;
-        right: 8%;
-        transform: rotate(30deg);
+        transform: translate(-100px, 100px);
     }
     100% {
-        top: -11%;
-        right: -15%;
-        transform: rotate(0deg);
+        transform: translate(0px, 0px);
     }
 }
 .first__desc {
@@ -122,6 +74,10 @@ body {
 }
 .first__date__block {
     position: relative;
+}
+.first__name,
+.first__date {
+    width: 50%;
 }
 .first__date:hover,
 .first__name:hover {
@@ -168,7 +124,6 @@ body {
     font-size: 3vw;
     line-height: 88.7%;
 }
-
 .first__date {
     position: relative;
     z-index: 2;
@@ -192,7 +147,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 1.5vw;
-    line-height: 20px;
+    line-height: 32px;
     color: #FFF6E4;
     transform: rotate(-5.88deg);
     text-align: center;
@@ -359,52 +314,52 @@ h1 {
 footer {
     margin-top: 8%;
   }
-  .footer__list,
-  .footer__text {
-    position: relative;
-    z-index: 1;
-    margin-left: 6.5%;
-  }
-  .footer__list {
-      display: flex;
-      margin-bottom: 46px;
-  }
-  .footer__list__item {
-      margin-right: 48px;
-  }
-  .footer__text {
-      font-size: 1.5vw;
-      line-height: 27px;
-      color: #FFF6E5;
-      width: 34%;
-  }
-  .item__link img {
-    width: 135%;
- }
-  .footer__bc {
-    margin-top:-34%; 
-    width: 100%; 
-  }
+.footer__list,
+.footer__text {
+position: relative;
+z-index: 1;
+margin-left: 6.5%;
+}
+.footer__list {
+    display: flex;
+    margin-bottom: 46px;
+}
+.footer__list__item {
+    margin-right: 48px;
+}
+.footer__text {
+    font-size: 1.5vw;
+    line-height: 45px;
+    color: #FFF6E5;
+    width: 34%;
+}
+.item__link img {
+width: 135%;
+}
+.footer__bc {
+margin-top:-34%; 
+width: 100%; 
+}
 
-  @media (max-width:1440px) {
-      .first__name__text {
-        font-size: 1.3vw;
-        line-height: 20px;
-      }
-      .first__name__text:first-of-type {
-        top: 15%;
-        left: 36%;
-      }
-      .footer__text {
-        line-height: 35px;
-      }
-      .footer__list__item {
-        margin-right: 26px;
-      }
-      .item__link img {
-         width: 100%;
-      }
-  }
+@media (max-width:1440px) {
+    .first__name__text {
+    font-size: 1.3vw;
+    line-height: 20px;
+    }
+    .first__name__text:first-of-type {
+    top: 15%;
+    left: 36%;
+    }
+    .footer__text {
+    line-height: 35px;
+    }
+    .footer__list__item {
+    margin-right: 26px;
+    }
+    .item__link img {
+        width: 100%;
+    }
+}
 @media (max-width: 768px) {
     .first__desc {
       transform: none;
@@ -437,6 +392,9 @@ footer {
     .first__date {
         width: 94%;
     }
+    .first__name {
+        width: 100%;
+    }
     .first__date__block {
         display: flex;
     }
@@ -457,7 +415,6 @@ footer {
     .wrapper-name {
         width: 79%;
     }
-    
     .date__content__item:first-of-type {
         font-size: 29vw;
     }
@@ -566,7 +523,6 @@ footer {
         width: 126%;
         margin-left: -23%;
     }
-
 }
 
 @media (max-width: 425px) {
@@ -690,4 +646,11 @@ footer {
     width: 174%;
     margin-left: -71%;
   }
+}
+@media (max-width: 320px) {
+    .first__name__text:first-of-type {
+        right: 3%;
+        bottom: 16%;
+        font-size: 10px;
+    }
 }
